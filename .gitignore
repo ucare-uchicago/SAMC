@@ -1,0 +1,13 @@
+docs
+.svn
+.revision
+build
+src/c/generated
+src/java/generated
+zookeeper-dev.jar
+.classpath
+.eclipse
+.project
+.settings
+src/java/lib/*
+lib/*
