@@ -1,0 +1,32 @@
+#!/bin/sh
+
+if [ $# -lt 2 ]; then
+  echo "usage: genzk <num_node> <working_dir>"
+  exit 1
+fi
+
+num_node=$1
+working_dir=$2
+conf_dir=$working_dir/conf
+
+scriptdir=`dirname $0`
+
+i=0
+while [ $i -lt $num_node ]; do
+  cp $scriptdir/resource/zktemplate $conf_dir/$i
+  data_dir=$working_dir/data/$i
+  client_port=`expr $i + 4000`
+  echo dataDir=$data_dir >> $conf_dir/$i
+  echo clientPort=$client_port >> $conf_dir/$i
+  base_port1=2000
+  base_port2=3000
+  j=0
+  while [ $j -lt $num_node ]; do
+    port1=`expr $base_port1 + $j`
+    port2=`expr $base_port2 + $j`
+    echo server.${j}=localhost:$port1:$port2 >> $conf_dir/$i
+    j=`expr $j + 1`
+  done
+  i=`expr $i + 1`
+done
+  

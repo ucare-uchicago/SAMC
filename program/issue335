@@ -1,0 +1,92 @@
+packetsend id=-755613098 from=0 to=2 tag=packet class=QuorumPacket type=11 zxid=-1
+packetsend id=-754689577 from=1 to=2 tag=packet class=QuorumPacket type=11 zxid=-1
+packetsend id=-753861195 from=2 to=0 tag=packet class=QuorumPacket type=10 zxid=0
+packetsend id=-753831404 from=2 to=1 tag=packet class=QuorumPacket type=10 zxid=0
+packetsend id=-753683410 from=2 to=0 tag=packet class=QuorumPacket type=15 zxid=0
+packetsend id=-753653619 from=2 to=1 tag=packet class=QuorumPacket type=15 zxid=0
+packetsend id=-1325886929 from=2 to=0 tag=count datatype=3 data=0
+packetsend id=-1325885968 from=2 to=1 tag=count datatype=3 data=0
+packetsend id=32032642 from=2 to=0 tag=map datatype=3 data=0
+packetsend id=32033603 from=2 to=1 tag=map datatype=3 data=0
+packetsend id=135127513 from=2 to=0 tag=path datatype=0 data=
+packetsend id=135128474 from=2 to=1 tag=path datatype=0 data=
+packetsend id=-438265847 from=2 to=0 tag=node class=DataNode
+packetsend id=-438236056 from=2 to=1 tag=node class=DataNode
+packetsend id=2085214038 from=2 to=0 tag=path datatype=0 data=/zookeeper
+packetsend id=2085214999 from=2 to=1 tag=path datatype=0 data=/zookeeper
+packetsend id=1844818772 from=2 to=0 tag=node class=DataNode
+packetsend id=1844848563 from=2 to=1 tag=node class=DataNode
+packetsend id=-807400257 from=2 to=0 tag=path datatype=0 data=/zookeeper/quota
+packetsend id=-807399296 from=2 to=1 tag=path datatype=0 data=/zookeeper/quota
+packetsend id=-1470696223 from=2 to=0 tag=node class=DataNode
+packetsend id=-1470666432 from=2 to=1 tag=node class=DataNode
+packetsend id=178533000 from=2 to=0 tag=path datatype=0 data=/
+packetsend id=178533961 from=2 to=1 tag=path datatype=0 data=/
+packetsend id=120328244 from=2 to=0 tag=signature datatype=0 data=BenWasHere
+packetsend id=120329205 from=2 to=1 tag=signature datatype=0 data=BenWasHere
+packetsend id=-755897554 from=0 to=2 tag=packet class=QuorumPacket type=3 zxid=0
+packetsend id=-753861194 from=2 to=0 tag=packet class=QuorumPacket type=10 zxid=0
+packetsend id=-754974033 from=1 to=2 tag=packet class=QuorumPacket type=3 zxid=0
+packetsend id=-753831403 from=2 to=1 tag=packet class=QuorumPacket type=10 zxid=0
+packetsend id=-753790081 from=2 to=0 tag=packet class=QuorumPacket type=12 zxid=-1
+packetsend id=-753760290 from=2 to=1 tag=packet class=QuorumPacket type=12 zxid=-1
+workload
+packetsend id=-755968668 from=0 to=2 tag=packet class=QuorumPacket type=1 zxid=-1
+packetsend id=-754144690 from=2 to=0 tag=packet class=QuorumPacket type=2 zxid=1
+packetsend id=-754114899 from=2 to=1 tag=packet class=QuorumPacket type=2 zxid=1
+diskwrite id=-1950339144 nodeId=2 dataHash=-1171293846
+diskwrite id=-1950341066 nodeId=0 dataHash=-1171293846
+diskwrite id=-1950340105 nodeId=1 dataHash=-1171293846
+packetsend id=-755896593 from=0 to=2 tag=packet class=QuorumPacket type=3 zxid=1
+packetsend id=-754973072 from=1 to=2 tag=packet class=QuorumPacket type=3 zxid=1
+packetsend id=-754073576 from=2 to=0 tag=packet class=QuorumPacket type=4 zxid=1
+packetsend id=-754043785 from=2 to=1 tag=packet class=QuorumPacket type=4 zxid=1
+packetsend id=-755968667 from=0 to=2 tag=packet class=QuorumPacket type=1 zxid=-1
+diskwrite id=-1950337656 nodeId=2 dataHash=-1171293798
+nodecrash id=2
+packetsend id=-754143729 from=2 to=0 tag=packet class=QuorumPacket type=2 zxid=2
+packetsend id=-754113938 from=2 to=1 tag=packet class=QuorumPacket type=2 zxid=2
+nodecrash id=0
+nodecrash id=1
+nodestart id=0
+nodestart id=1
+packetsend id=-755641928 from=0 to=1 tag=packet class=QuorumPacket type=11 zxid=1
+packetsend id=-754783755 from=1 to=0 tag=packet class=QuorumPacket type=10 zxid=4294967296
+packetsend id=-754606931 from=1 to=0 tag=packet class=QuorumPacket type=15 zxid=0
+packetsend id=-1324993199 from=1 to=0 tag=count datatype=3 data=1
+packetsend id=467423823 from=1 to=0 tag=id datatype=4 data=1396211756494
+packetsend id=-1079977386 from=1 to=0 tag=timeout datatype=3 data=15000
+packetsend id=32002851 from=1 to=0 tag=map datatype=3 data=0
+packetsend id=135097722 from=1 to=0 tag=path datatype=0 data=
+packetsend id=-439189368 from=1 to=0 tag=node class=DataNode
+packetsend id=2085184247 from=1 to=0 tag=path datatype=0 data=/zookeeper
+packetsend id=1843895251 from=1 to=0 tag=node class=DataNode
+packetsend id=-807430048 from=1 to=0 tag=path datatype=0 data=/zookeeper/quota
+packetsend id=-1471619744 from=1 to=0 tag=node class=DataNode
+packetsend id=178503209 from=1 to=0 tag=path datatype=0 data=/
+packetsend id=120298453 from=1 to=0 tag=signature datatype=0 data=BenWasHere
+packetsend id=-754783754 from=1 to=0 tag=packet class=QuorumPacket type=10 zxid=4294967296
+packetsend id=-754713602 from=1 to=0 tag=packet class=QuorumPacket type=12 zxid=-1
+packetsend id=-755926384 from=0 to=1 tag=packet class=QuorumPacket type=3 zxid=4294967296
+sleep time=10000
+packetsend id=-755069172 from=1 to=0 tag=packet class=QuorumPacket type=2 zxid=4294967297
+diskwrite id=1388324732 nodeId=1 dataHash=321878341
+diskwrite id=1388323771 nodeId=0 dataHash=321878341
+packetsend id=-755927345 from=0 to=1 tag=packet class=QuorumPacket type=3 zxid=4294967297
+packetsend id=-754998058 from=1 to=0 tag=packet class=QuorumPacket type=4 zxid=4294967297
+packetsend id=-755066289 from=1 to=0 tag=packet class=QuorumPacket type=2 zxid=4294967298
+diskwrite id=1388328514 nodeId=1 dataHash=321878463
+diskwrite id=1388327553 nodeId=0 dataHash=321878463
+packetsend id=-755924462 from=0 to=1 tag=packet class=QuorumPacket type=3 zxid=4294967298
+packetsend id=-754995175 from=1 to=0 tag=packet class=QuorumPacket type=4 zxid=4294967298
+packetsend id=-755067250 from=1 to=0 tag=packet class=QuorumPacket type=2 zxid=4294967299
+diskwrite id=1388326995 nodeId=1 dataHash=321878414
+diskwrite id=1388326034 nodeId=0 dataHash=321878414
+packetsend id=-755925423 from=0 to=1 tag=packet class=QuorumPacket type=3 zxid=4294967299
+packetsend id=-754996136 from=1 to=0 tag=packet class=QuorumPacket type=4 zxid=4294967299
+packetsend id=-755064367 from=1 to=0 tag=packet class=QuorumPacket type=2 zxid=4294967300
+diskwrite id=-1950335548 nodeId=1 dataHash=-1171293699
+diskwrite id=-1950336509 nodeId=0 dataHash=-1171293699
+packetsend id=-755922540 from=0 to=1 tag=packet class=QuorumPacket type=3 zxid=4294967300
+packetsend id=-754993253 from=1 to=0 tag=packet class=QuorumPacket type=4 zxid=4294967300
+nodestart id=2

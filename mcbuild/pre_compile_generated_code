@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dir=`dirname $0`
+basedir=$dir/..
+cp $basedir/src/jute_aspect/QuorumPacket.java src/java/generated/org/apache/zookeeper/server/quorum
